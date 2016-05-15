@@ -1,0 +1,18 @@
+security:
+    providers:
+        in_memory:
+            memory: ~
+
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt|error)|css|images|js)/
+            security: false
+
+        default:
+            anonymous: ~
+            logout:
+                path:   /demo/logout
+                target: /
+            form_login:
+                login_path: /demo/login
+                check_path: /demo/login_check
