@@ -15,7 +15,7 @@ class DefaultController extends Controller
     public function indexAction($name)
     {
         $logger = $this->get('logger');
-        $logger->info($name);
+        $logger->info('Arduino ' . $name);
         return array('name' => $name);
     }
 }
