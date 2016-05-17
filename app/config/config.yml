@@ -55,6 +55,8 @@ doctrine:
         password: "%database_password%"
         charset:  UTF8
         path:     "%database_path%"
+    orm:
+        auto_mapping: true
 
 # Doctrine PHPCR-ODM configuration
 doctrine_phpcr:

@@ -4,8 +4,8 @@ parameters:
     database_host:     127.0.0.1
     database_port:     ~
     database_name:     domo
-    database_user:     domo_user
-    database_password: domo_pass
+    database_user:     root
+    database_password: Contrasena_1
     database_path:     "%kernel.root_dir%/app.sqlite"
 
     phpcr_backend:
