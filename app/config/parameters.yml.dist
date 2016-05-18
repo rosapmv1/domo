@@ -46,3 +46,8 @@ parameters:
         admin:
             password: admin
             roles: ROLE_SUPER_ADMIN
+
+    default_api_url:        localhost
+    default_api_port:       80
+    default_api_username:
+    default_api_password:
